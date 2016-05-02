@@ -3,16 +3,16 @@ execute pathogen#infect()
 colorscheme wombat		" wombat colorscheme
 syntax enable			" enable syntax processing
 set visualbell			" use visual bell (no beeping when erroring out)
-set ruler				" show row and column ruler information
-set spell				" enable spell-checking
+set ruler			" show row and column ruler information
+set spell			" enable spell-checking
 
 "----- Spaces and Tabs
 set tabstop=4			" number of visual spaces per tab
 set shiftwidth=4		" size of an indent
 
 "----- UI Config
-set number				" show line numbers
-set showcmd				" show command in bottom bar
+set number			" show line numbers
+set showcmd			" show command in bottom bar
 set cursorline			" highlight current line
 filetype indent on		" load filetype-specific indent files
 set wildmenu			" visual autocomplete for command menu
